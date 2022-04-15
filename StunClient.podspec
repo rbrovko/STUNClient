@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name = 'StunClient'
-  s.version = '1.0.4'
+  s.version = '1.0.5-r'
   s.license = 'MIT'
   s.summary = 'My IP address and port discovery'
-  s.homepage = 'https://github.com/madmag77/StunClient'
+  s.homepage = 'https://github.com/rbrovko/StunClient'
   s.authors = { 'madmag77' => 'https://github.com/madmag77' }
-  s.source = { :git => 'https://github.com/madmag77/StunClient.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/rbrovko/StunClient.git', :tag => s.version }
   s.documentation_url = 'https://github.com/madmag77/StunClient'
 
   s.ios.deployment_target = '10.0'
@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Sources/StunClient/**/*.swift'
 
-  s.dependency 'SwiftNIO', '~> 2.38'
+  s.dependency 'SwiftNIO', '2.38.1-r'
 end
